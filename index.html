@@ -114,26 +114,23 @@
     <!-- Main Container -->
     <main class="max-w-7xl mx-auto px-4 lg:px-8 space-y-6">
 
-        <!-- Top Leaderboard Ad Container -->
+        <!-- Top Leaderboard Ad Container (Adsterra 728x90) -->
         <div class="glass-card rounded-2xl p-3 text-center overflow-hidden border border-white/10 relative group">
             <div class="text-[10px] uppercase font-bold text-slate-400 tracking-wider mb-1 flex justify-between px-2">
                 <span>Advertisement</span>
-                <span class="text-amber-400 cursor-pointer hover:underline" onclick="toggleAdGuide()">Setup Ads (Adsterra/AdSense)</span>
+                <span class="text-amber-400">Active Adsterra Banner</span>
             </div>
-            <!-- Ad Placeholder Box -->
-            <div class="bg-slate-900/70 border border-dashed border-slate-700 rounded-xl py-4 px-2 flex flex-col md:flex-row items-center justify-between min-h-[90px] gap-2">
-                <div class="flex items-center space-x-3 text-left">
-                    <div class="bg-amber-400/20 p-2 rounded-lg text-amber-400">
-                        <i class="fa-solid fa-rectangle-ad text-2xl"></i>
-                    </div>
-                    <div>
-                        <p class="text-xs font-semibold text-white">Ad Placement Container (728x90 Leaderboard)</p>
-                        <p class="text-[11px] text-slate-400">Paste your Adsterra script or Google AdSense tag here.</p>
-                    </div>
-                </div>
-                <button onclick="toggleAdGuide()" class="text-xs font-semibold bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg transition-all border border-white/10">
-                    Ad Setup Guide <i class="fa-solid fa-code ml-1"></i>
-                </button>
+            <div class="bg-slate-900/70 border border-slate-700 rounded-xl py-2 px-2 flex items-center justify-center min-h-[90px]">
+                <script>
+                    atOptions = {
+                        'key' : '8e41bba5836cebe102f087664666715b',
+                        'format' : 'iframe',
+                        'height' : 90,
+                        'width' : 728,
+                        'params' : {}
+                    };
+                </script>
+                <script src="https://bancadeltempoidea.org/22/8e41bba5836cebe102f087664666715b"></script>
             </div>
         </div>
 
@@ -232,15 +229,12 @@
                     </div>
 
                     <div id="hourlyForecastContainer" class="flex items-center space-x-4 overflow-x-auto pb-3 pt-1 scrollbar-thin">
-                        <!-- Dynamic hourly cards rendered by JS -->
                         <div class="text-center text-slate-400 text-xs py-4 w-full">Loading hourly telemetry...</div>
                     </div>
                 </div>
 
                 <!-- Detailed Atmospheric Metrics Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                    
-                    <!-- Dew Point -->
                     <div class="glass-card p-5 rounded-2xl border border-white/10 flex items-center justify-between">
                         <div>
                             <p class="text-xs font-semibold text-slate-400 uppercase">Dew Point</p>
@@ -251,7 +245,6 @@
                         </div>
                     </div>
 
-                    <!-- Visibility -->
                     <div class="glass-card p-5 rounded-2xl border border-white/10 flex items-center justify-between">
                         <div>
                             <p class="text-xs font-semibold text-slate-400 uppercase">Visibility</p>
@@ -262,7 +255,6 @@
                         </div>
                     </div>
 
-                    <!-- Wind Direction -->
                     <div class="glass-card p-5 rounded-2xl border border-white/10 flex items-center justify-between">
                         <div>
                             <p class="text-xs font-semibold text-slate-400 uppercase">Wind Bearing</p>
@@ -273,7 +265,6 @@
                         </div>
                     </div>
 
-                    <!-- Sunrise & Sunset -->
                     <div class="glass-card p-5 rounded-2xl border border-white/10 sm:col-span-2 md:col-span-3 flex items-center justify-around">
                         <div class="flex items-center space-x-4">
                             <div class="p-3 bg-amber-500/20 text-amber-400 rounded-2xl">
@@ -295,7 +286,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
 
             </div>
@@ -313,21 +303,24 @@
                     </div>
 
                     <div id="dailyForecastContainer" class="space-y-3">
-                        <!-- Dynamic 7-day items rendered by JS -->
                         <div class="text-center text-slate-400 text-xs py-4">Loading 7-day weather outlook...</div>
                     </div>
                 </div>
 
-                <!-- Sidebar Ad Unit -->
+                <!-- Sidebar Ad Unit (Adsterra 300x250) -->
                 <div class="glass-card rounded-3xl p-4 text-center border border-white/10">
                     <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider mb-2">Sponsored Advertisement</p>
-                    <div class="bg-slate-900/80 border border-dashed border-slate-700 rounded-2xl p-6 min-h-[250px] flex flex-col items-center justify-center space-y-3">
-                        <i class="fa-solid fa-rectangle-ad text-4xl text-sky-400"></i>
-                        <div>
-                            <p class="text-sm font-bold">Sidebar Ad Banner (300x250)</p>
-                            <p class="text-xs text-slate-400 max-w-xs mt-1">Insert your Adsterra Native Ad, Popunder script, or Google AdSense Responsive unit code.</p>
-                        </div>
-                        <span class="px-3 py-1 bg-amber-400/20 text-amber-300 text-xs rounded-full font-medium">Ready for Monetization</span>
+                    <div class="bg-slate-900/80 border border-slate-700 rounded-2xl p-4 min-h-[250px] flex flex-col items-center justify-center">
+                        <script>
+                            atOptions = {
+                                'key' : 'e544d081b32a1c4ecc6cff48b844291a',
+                                'format' : 'iframe',
+                                'height' : 250,
+                                'width' : 300,
+                                'params' : {}
+                            };
+                        </script>
+                        <script src="https://bancadeltempoidea.org/22/e544d081b32a1c4ecc6cff48b844291a"></script>
                     </div>
                 </div>
 
@@ -355,17 +348,11 @@
             </div>
 
             <div class="space-y-3 text-xs text-slate-200">
-                <p>To enable live monetization on your deployed website:</p>
-                <ol class="list-decimal pl-4 space-y-2">
-                    <li>Sign up on <b>Adsterra</b> or <b>Google AdSense</b>.</li>
-                    <li>Create a 728x90 Leaderboard banner and 300x250 Native/Social Bar ad unit.</li>
-                    <li>Open this HTML file in your editor and search for <code>Advertisement</code> sections.</li>
-                    <li>Replace the placeholder <code>&lt;div&gt;</code> elements with your provided JavaScript ad codes.</li>
-                </ol>
+                <p>Your Adsterra ads are now successfully integrated into this file!</p>
             </div>
 
             <button onclick="toggleAdGuide()" class="w-full mt-6 bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-300 hover:to-orange-400 text-slate-950 font-bold py-2.5 rounded-xl transition-all">
-                Got It, Close Guide
+                Close Guide
             </button>
         </div>
     </div>
@@ -378,12 +365,10 @@
 
     <!-- JavaScript Logic -->
     <script>
-        // State management variables
-        let currentUnit = 'C'; // 'C' or 'F'
+        let currentUnit = 'C';
         let currentWeatherData = null;
         let currentGeoData = { name: 'Rawalpindi', country: 'Pakistan', lat: 33.5974, lon: 73.0479 };
 
-        // Weather Code Interpretation Map (WMO Weather interpretation codes)
         const weatherCodeMap = {
             0: { label: 'Clear Sky', icon: 'fa-sun', bg: 'bg-weather-clear', nightBg: 'bg-weather-clear-night' },
             1: { label: 'Mainly Clear', icon: 'fa-cloud-sun', bg: 'bg-weather-clear', nightBg: 'bg-weather-clear-night' },
@@ -407,12 +392,8 @@
             96: { label: 'Thunderstorm & Hail', icon: 'fa-cloud-bolt', bg: 'bg-weather-thunder', nightBg: 'bg-weather-thunder' }
         };
 
-        // Initialize application on page load
         window.addEventListener('load', () => {
-            calculateRevenue();
             setupSearchAutocomplete();
-            
-            // Check URL parameters for shared location
             const urlParams = new URLSearchParams(window.location.search);
             const lat = urlParams.get('lat');
             const lon = urlParams.get('lon');
@@ -422,12 +403,10 @@
                 currentGeoData = { name: decodeURIComponent(name), country: '', lat: parseFloat(lat), lon: parseFloat(lon) };
                 fetchLocationWeather();
             } else {
-                // Auto detect HTML5 location with fallback
                 getUserLocation();
             }
         });
 
-        // HTML5 Geolocation API Handler
         function getUserLocation() {
             showToast("Detecting your local position...");
             if (navigator.geolocation) {
@@ -436,7 +415,6 @@
                         const lat = position.coords.latitude;
                         const lon = position.coords.longitude;
                         try {
-                            // Reverse geocode lat/lon to get city name
                             const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}`);
                             const data = await response.json();
                             const city = data.address.city || data.address.town || data.address.village || data.address.county || 'Local Area';
@@ -450,7 +428,6 @@
                         }
                     },
                     (error) => {
-                        console.warn("Geolocation permission denied or unavailable. Using default (Rawalpindi/Islamabad).");
                         showToast("Using default city (Rawalpindi)");
                         fetchCityWeather('Rawalpindi');
                     },
@@ -461,7 +438,6 @@
             }
         }
 
-        // Fetch weather from Open-Meteo API for current coordinates
         async function fetchLocationWeather() {
             try {
                 const { lat, lon } = currentGeoData;
@@ -474,11 +450,9 @@
                 renderDashboard();
             } catch (err) {
                 showToast("Failed to fetch weather data. Please try again.");
-                console.error(err);
             }
         }
 
-        // Fetch city details by text query
         async function fetchCityWeather(cityName) {
             try {
                 showToast(`Searching for ${cityName}...`);
@@ -499,11 +473,9 @@
                 }
             } catch (err) {
                 showToast("Error retrieving city coordinates.");
-                console.error(err);
             }
         }
 
-        // Render full dashboard details
         function renderDashboard() {
             if (!currentWeatherData) return;
 
@@ -512,31 +484,25 @@
             const hourly = currentWeatherData.hourly;
             const weatherInfo = weatherCodeMap[current.weather_code] || { label: 'Clear Sky', icon: 'fa-sun', bg: 'bg-weather-clear', nightBg: 'bg-weather-clear-night' };
 
-            // Dynamic Body Background update based on day/night and condition
             const mainBody = document.getElementById('mainBody');
             mainBody.className = `min-h-full font-sans text-white transition-all duration-700 ease-in-out pb-12 ${current.is_day ? weatherInfo.bg : weatherInfo.nightBg}`;
 
-            // City Name & Time
             document.getElementById('cityName').innerText = `${currentGeoData.name}${currentGeoData.country ? ', ' + currentGeoData.country : ''}`;
             const localDate = new Date();
             document.getElementById('currentDate').innerText = localDate.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric', year: 'numeric' });
 
-            // Temperatures
             const rawTemp = current.temperature_2m;
             const rawFeelsLike = current.apparent_temperature;
             document.getElementById('currentTemp').innerText = formatTemp(rawTemp);
             document.getElementById('feelsLike').innerText = `Feels like: ${formatTemp(rawFeelsLike)}`;
             
-            // Weather Condition Text & Icon
             document.getElementById('weatherCondition').innerText = weatherInfo.label;
             document.getElementById('weatherIconContainer').innerHTML = `<i class="fa-solid ${weatherInfo.icon} ${current.is_day ? 'text-amber-300' : 'text-slate-200'}"></i>`;
 
-            // Today's High / Low
             const todayHigh = daily.temperature_2m_max[0];
             const todayLow = daily.temperature_2m_min[0];
             document.getElementById('highLowTemp').innerText = `H: ${formatTemp(todayHigh)} | L: ${formatTemp(todayLow)}`;
 
-            // Metrics
             document.getElementById('humidity').innerText = `${current.relative_humidity_2m}%`;
             document.getElementById('windSpeed').innerText = `${Math.round(current.wind_speed_10m)} km/h`;
             
@@ -544,7 +510,6 @@
             document.getElementById('uvIndex').innerText = `${maxUv.toFixed(1)} (${getUvCategory(maxUv)})`;
             document.getElementById('pressure').innerText = `${Math.round(current.surface_pressure)} hPa`;
 
-            // Atmospheric Details
             document.getElementById('dewPoint').innerText = formatTemp(current.dew_point_2m);
             const visKm = daily.visibility_max ? (daily.visibility_max[0] / 1000).toFixed(1) : '10.0';
             document.getElementById('visibility').innerText = `${visKm} km`;
@@ -553,31 +518,24 @@
             document.getElementById('windDirection').innerText = `${windDir}°`;
             document.getElementById('windCompassIcon').style.transform = `rotate(${windDir}deg)`;
 
-            // Sunrise / Sunset
             if (daily.sunrise && daily.sunset) {
                 document.getElementById('sunriseTime').innerText = formatTimeStr(daily.sunrise[0]);
                 document.getElementById('sunsetTime').innerText = formatTimeStr(daily.sunset[0]);
             }
 
-            // Render 24-Hour Hourly Forecast
             renderHourlyForecast(hourly);
-
-            // Render 7-Day Daily Forecast
             renderDailyForecast(daily);
         }
 
-        // Render 24-Hour Forecast Timeline
         function renderHourlyForecast(hourly) {
             const container = document.getElementById('hourlyForecastContainer');
             container.innerHTML = '';
 
-            // Find current hour index
             const now = new Date();
             const currentHourIso = now.toISOString().slice(0, 13);
             let startIndex = hourly.time.findIndex(t => t.startsWith(currentHourIso));
             if (startIndex === -1) startIndex = 0;
 
-            // Render next 24 hours
             for (let i = startIndex; i < startIndex + 24 && i < hourly.time.length; i++) {
                 const timeStr = hourly.time[i];
                 const hourDate = new Date(timeStr);
@@ -598,7 +556,6 @@
             }
         }
 
-        // Render 7-Day Forecast List
         function renderDailyForecast(daily) {
             const container = document.getElementById('dailyForecastContainer');
             container.innerHTML = '';
@@ -632,7 +589,6 @@
             }
         }
 
-        // Unit conversion and formatting
         function formatTemp(tempC) {
             if (tempC === undefined || tempC === null) return '--';
             if (currentUnit === 'F') {
@@ -657,7 +613,6 @@
             renderDashboard();
         }
 
-        // Autocomplete search listener
         function setupSearchAutocomplete() {
             const input = document.getElementById('searchInput');
             const dropdown = document.getElementById('autocompleteDropdown');
@@ -709,7 +664,6 @@
                 }, 300);
             });
 
-            // Hide dropdown when clicking outside
             document.addEventListener('click', (e) => {
                 if (!input.contains(e.target) && !dropdown.contains(e.target)) {
                     dropdown.classList.add('hidden');
@@ -732,23 +686,18 @@
             }
         }
 
-        // Share Link functionality
         function copyShareableLink() {
             const shareUrl = `${window.location.origin}${window.location.pathname}?lat=${currentGeoData.lat}&lon=${currentGeoData.lon}&name=${encodeURIComponent(currentGeoData.name)}`;
             navigator.clipboard.writeText(shareUrl).then(() => {
                 showToast("Shareable weather link copied to clipboard!");
-            }).catch(() => {
-                showToast("Failed to copy link.");
             });
         }
 
-        // Modal Toggle
         function toggleAdGuide() {
             const modal = document.getElementById('adModal');
             modal.classList.toggle('hidden');
         }
 
-        // Utility: Toast notification
         function showToast(msg) {
             const toast = document.getElementById('toast');
             const toastMsg = document.getElementById('toastMsg');
@@ -763,24 +712,6 @@
             }, 3000);
         }
 
-        // Revenue Calculation Handler
-        function calculateRevenue(dailyTraffic = 1200, ecpmRate = 1.40) {
-            const pkrRate = 278.50;
-            const impressions = dailyTraffic * 2.5;
-            const dailyUSD = (impressions / 1000) * ecpmRate;
-            const dailyPKR = dailyUSD * pkrRate;
-            const monthlyUSD = dailyUSD * 30;
-            const monthlyPKR = monthlyUSD * pkrRate;
-
-            return {
-                dailyUSD: dailyUSD.toFixed(2),
-                dailyPKR: dailyPKR.toFixed(0),
-                monthlyUSD: monthlyUSD.toFixed(2),
-                monthlyPKR: monthlyPKR.toFixed(0)
-            };
-        }
-
-        // Helper functions
         function getUvCategory(uv) {
             if (uv <= 2) return 'Low';
             if (uv <= 5) return 'Moderate';
